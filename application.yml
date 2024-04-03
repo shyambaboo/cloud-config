@@ -5,5 +5,5 @@ eureka:
     service-url:
       defaultZone: service-registry-deployment.default.svc.cluster.local:8761/eureka/
   instance:
-    hostname: service-registry-deployment.default.svc.cluster.local
+    hostname: service-registry-deployment
 
