@@ -1,9 +1,9 @@
 eureka:
-  client:
-    register-with-eureka: true
-    fetch-registry: true
-    service-url:
-      defaultZone: http://service-registry:8761/eureka
   instance:
-    hostname: service-registry
-
+    preferIpAddress: true
+    hostname: 4.157.237.25
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://4.157.237.25:8761/eureka
